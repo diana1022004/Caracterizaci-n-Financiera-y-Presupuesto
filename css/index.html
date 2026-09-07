@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Gestiona tus finanzas personales con claridad y control.">
-  <title>Clara | Finanzas personales</title>
+  <title>Mi Libro Financiero | Finanzas personales</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
   <header class="app-header">
     <div class="nav-inner">
-      <a class="brand" href="#"><span class="brand-mark">C</span> clara</a>
+      <a class="brand" href="#"><span class="brand-mark">M</span> Mi Libro Financiero</a>
       <div class="d-flex align-items-center gap-3">
         <span class="nav-subtitle">Tu dinero, más claro.</span>
         <button id="reset-app" class="btn-reset d-none" type="button">Resetear / Reconfigurar</button>
@@ -71,12 +71,12 @@
     </section>
   </main>
 
-  <footer class="app-footer"><small>Clara · Datos guardados localmente en tu navegador</small></footer>
+  <footer class="app-footer"><small>Mi Libro Financiero · Datos guardados localmente en tu navegador</small></footer>
   <div id="toast" class="toast-message" role="status" aria-live="polite"></div>
   <template id="fixed-expense-template"><div class="row g-3 align-items-end expense-row" data-expense-row><div class="col-sm-7"><label class="form-label fixed-label"></label><input class="form-control fixed-name"></div><div class="col-sm-5"><label class="form-label">Valor mensual</label><div class="input-group"><span class="input-group-text">$</span><input class="form-control fixed-amount" type="number" min="0" step="1000" placeholder="0"></div></div></div></template>
-  <script src="storage.js"></script>
-  <script src="wizard.js"></script>
-  <script src="dashboard.js"></script>
-  <script src="app.js"></script>
+  <script src="../Js/storage.js"></script>
+  <script src="../Js/wizard.js"></script>
+  <script src="../Js/dashboard.js"></script>
+  <script src="../Js/app.js"></script>
 </body>
 </html>
