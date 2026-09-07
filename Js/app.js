@@ -1,4 +1,3 @@
-
 function mostrarWizard() {
   document.getElementById("dashboard-section").classList.add("d-none");
   document.getElementById("wizard-section").classList.remove("d-none");
@@ -16,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   inicializarWizard();
   inicializarDashboard();
 
-  // Control de flujo: ¿ya existe un perfil guardado en localStorage?
   if (existePerfilGuardado()) {
     mostrarDashboard();
   } else {
